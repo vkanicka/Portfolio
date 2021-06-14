@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@100;200;300;400;500&display=swap');
+
+:root {
+  --myBlue:
+  #a0dde3;
+  --myBackground:
+black;
+  --myFont:
+  'Jura'
+  /* 'Josefin Sans' */
+  /* 'Montserrat' */
+  /* 'Saira' */
+  /* 'Quantico' */
+  /* 'Electrolize' */
+  /* 'DotGothic16' */
+  /* 'Aldrich' */
+}
+
+body {
+  background-color: var(--myBackground);
+  color: var(--myBlue);
+  font-family: var(--myFont), sans-serif;
+}
+
+.appDiv {
+  margin:5%;
+}
+
+.headerDiv {
+  /* border: 1px solid red; */
+  margin: 6.5%;
+  /* margin: 5%; */
+}
+
+.icon {
+  color: var(--myBlue);
+}
+.icon:hover {
+  color: cyan;
+  transition-duration: .5s;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: var(--myFont);
+  font-size: 35px;
+}
+h2 {
+  font-weight: 600;
+  font-family: var(--myFont);
+  font-size: 28px;
+}
+.headerDetails {
+  list-style: none;
+  padding-left: 0;
+  font-size: 23px;
+  color:lightgray;
+  font-weight: 500;
+  line-height:1.2;
+  /* word-spacing: .4em; */
+  font-family:
+  'Jura'
+  /* 'Josefin Sans' */
+  /* 'Montserrat' */
+  /* 'Saira' */
+  /* 'Quantico' */
+  /* 'Electrolize' */
+  /* 'DotGothic16' */
+  /* 'Aldrich' */
+  ;
+}
+
+.textDivider {
+  color:gray;
+}
+
+li {
+  margin:.5% 0%;
+}
+.detailKey {
+  color: var(--myBlue);
+  font-weight: 700;
+  word-spacing: normal;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid darkslategray;
+}
+
+.projectImage {
+  margin: 3%;
+
+}
