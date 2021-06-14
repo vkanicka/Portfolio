@@ -47,6 +47,8 @@ export default function App() {
                 <li><span className='detailKey'>Brand</span>: Clean<span className="textDivider"> | </span>Easy<span className="textDivider"> | </span>Productive<span className="textDivider"> | </span>Meaningful<span className="textDivider"> | </span>Purposeful<span className="textDivider"> | </span>Satisifying</li>
 
                 <li><span className='detailKey'>Background</span>: Analytics, Marketing, Art, Data Visualization and Storytelling</li>
+
+                <li><span className='detailKey'>Artwork</span>: <a href="https://victoriakanicka.com">victoriakanicka.com</a> </li>
             </ul>
         </div>
 
