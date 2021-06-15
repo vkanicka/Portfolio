@@ -21,9 +21,9 @@ export default function Project (props) {
   const rando = (thisArray) => {return Math.floor(Math.random()*(thisArray.length))}
 
     const popupStyle = {
-      opacity: 0.9,
+      opacity: 0.95,
       padding: '2em',
-      color: 'white',
+      color: '#caff8a',
       background:'black',
       "whiteSpace":'nowrap',
       "border-radius":'50px'
@@ -53,9 +53,9 @@ export default function Project (props) {
           }
         position='right center'
         style={popupStyle}
-        size='huge'
+        size='big'
         wide='very'
-        offset={[-200,50]}
+        offset={[-100,20]}
         trigger={<Button className="inverted purple">Reviews</Button>}/>
       </div>
     )

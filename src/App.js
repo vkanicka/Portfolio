@@ -56,13 +56,15 @@ export default function App() {
 
         <hr/>
 
-        <Project
-        title={'Life Simulation Game'}
-        image={'https://i.imgur.com/CdID1LM.png'}
-        url={'https://vkanicka.github.io/LifeSimulation/files02/index.html'}
-        github={'https://github.com/vkanicka/LifeSimulation'}
-        reviews={'reviews/proj1'}
-        />
+        <div>
+          <Project
+          title={'Life Simulation Game'}
+          image={'https://i.imgur.com/CdID1LM.png'}
+          url={'https://vkanicka.github.io/LifeSimulation/files02/index.html'}
+          github={'https://github.com/vkanicka/LifeSimulation'}
+          reviews={'reviews/proj1'}
+          />
+        </div>
 
 
 
