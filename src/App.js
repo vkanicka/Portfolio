@@ -1,15 +1,15 @@
 import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 import React from "react";
+import Project from "./Project"
 import resume from "./Resume_Victoria_Kanicka.pdf"
 
 
-export default function App() {
-  // const [lifeSim, setLifeSim] = useState(false)
 
-  const addButtons = () => {
-    console.log('hover time!')
-  }
+
+export default function App() {
+
+
   return (
     <div className="appDiv">
 
@@ -56,13 +56,13 @@ export default function App() {
 
         <hr/>
 
-        <div className='projects centered ui cards'>
-            <img onMouseOver={()=>addButtons()} className='projectImage' src='https://i.imgur.com/CdID1LM.png' width='35%' alt='life sim game screenshot'></img>
-            <img className='projectImage' src='https://i.imgur.com/BRGpK1u.png' width='45%' alt='my Mental Health Trainer app screenshot'/>
-            <img className='projectImage' src='https://i.imgur.com/YE4mp9t.png' width='30%' alt='Pixel Progress app screenshot'/>
-            <img className='projectImage' src='https://i.imgur.com/d8HTMvU.png' width='50%' alt='Database mapping for my Mental Health Trainer app'/>
-        </div>
-
+        <Project
+        title={'Life Simulation Game'}
+        image={'https://i.imgur.com/CdID1LM.png'}
+        url={'https://vkanicka.github.io/LifeSimulation/files02/index.html'}
+        github={'https://github.com/vkanicka/LifeSimulation'}
+        reviews={'reviews/proj1'}
+        />
 
 
 
