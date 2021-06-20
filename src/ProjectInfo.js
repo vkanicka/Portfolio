@@ -30,7 +30,7 @@ const proj1 = new Project (
 )
 const proj4 = new Project (
   'my Mental Health Trainer',
-  'https://i.imgur.com/c9NF5Ie.pngg',
+  'https://i.imgur.com/qVuKbkU.png',
   'https://my-mental-health-trainer.herokuapp.com/',
   'https://github.com/vkanicka/GA_Capstone_Project_Backend',
   comments4
