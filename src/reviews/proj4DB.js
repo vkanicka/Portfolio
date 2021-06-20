@@ -1,27 +1,5 @@
 const comments = [
 
-"The lilac homepage is very calming!",
-
-"love the color pallet",
-
-"great filter options!",
-
-"I love how this looks!",
-
-"useful and beautiful app!",
-
-"really really good",
-
-"love anything pro-mental health",
-
-"Love this idea! Great for mental health!",
-
-"great idea",
-
-"Really Cool, Simple and Effective",
-
-"a tag cloud!",
-
 "Nice mapping out the database relationship. very organized!",
 
 "many-to-many is no joke! nice work!",

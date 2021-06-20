@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Button, Dimmer, Header, Image, Popup } from 'semantic-ui-react'
-import comments from "./reviews/proj1"
 
 export default function Project (props) {
   const [active,toggleActive] = useState(false)
@@ -32,20 +31,20 @@ export default function Project (props) {
     const content = (
       <div>
         <Header as='h2' inverted>
-          {props.title}
+          {props.project.title}
         </Header>
 
-        <Button href={props.url} className="inverted purple">Play</Button>
-        <Button href={props.github} className="inverted purple">GitHub</Button>
+        <Button href={props.project.url} className="inverted purple">App</Button>
+        <Button href={props.project.github} className="inverted purple">GitHub</Button>
 
         <Popup
         content= {
 
             <div >
-            {comments.map((comment, c) =>{
+            {props.project.comments.map((comment, c) =>{
             return (
 
-              <div margin='5px' key={`comment-${c}`}><i className={commentIcons[rando(commentIcons)]+' icon '+commentColors[rando(commentColors)].toLowerCase()}></i>      {comments[c]}</div>
+              <div margin='5px' key={`comment-${c}`}><i className={commentIcons[rando(commentIcons)]+' icon '+commentColors[rando(commentColors)].toLowerCase()}></i>      {comment}</div>
 
             )
             })}
@@ -53,7 +52,7 @@ export default function Project (props) {
           }
         position='right center'
         style={popupStyle}
-        size='big'
+        size='large'
         wide='very'
         offset={[-100,20]}
         trigger={<Button className="inverted purple">Reviews</Button>}/>
@@ -68,10 +67,10 @@ export default function Project (props) {
         as={Image}
         dimmed={active}
         dimmer={{ active, content }}
-        onMouseEnter={()=>toggleActive(!active)}
-        onMouseLeave={()=>toggleActive(!active)}
+        onMouseEnter={()=>toggleActive(true)}
+        onMouseLeave={()=>toggleActive(false)}
         size='large'
-        src={props.image}
+        src={props.project.image}
       />
     )
 }

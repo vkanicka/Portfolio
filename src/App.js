@@ -1,14 +1,10 @@
 import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 import React from "react";
-import Project from "./Project"
+import ProjectSection from "./ProjectSection"
 import resume from "./Resume_Victoria_Kanicka.pdf"
 
-
-
-
 export default function App() {
-
 
   return (
     <div className="appDiv">
@@ -57,16 +53,8 @@ export default function App() {
         <hr/>
 
         <div>
-          <Project
-          title={'Life Simulation Game'}
-          image={'https://i.imgur.com/CdID1LM.png'}
-          url={'https://vkanicka.github.io/LifeSimulation/files02/index.html'}
-          github={'https://github.com/vkanicka/LifeSimulation'}
-          reviews={'reviews/proj1'}
-          />
+          <ProjectSection/>
         </div>
-
-
 
     </div>
   );
