@@ -6,7 +6,7 @@ import exportProjects from "./ProjectInfo"
 export default function ProjectSection (props) {
 
 return (
-  <div className='ProjectSection ui grid two columns'>
+  <div className='ProjectSection ui centered grid two columns'>
       {exportProjects.map((project, p) => {
         return(
           <div className='project' key={`project-${p}-div`}>
