@@ -12,14 +12,9 @@ export default function Project (props) {
   'comments',
   'comments outline'
 ]
-  const commentColors =
-  // [
-  //   'olive','green','teal','purple','grey'
-  // ]
-  ['teal','grey','purple']
+  const commentColors = ['teal','grey','purple']
   const rando = (thisArray) => {return Math.floor(Math.random()*(thisArray.length))}
-
-    const popupStyle = {
+  const popupStyle = {
       opacity: 0.95,
       padding: '2em',
       color: '#caff8a',
@@ -27,40 +22,33 @@ export default function Project (props) {
       "whiteSpace":'nowrap',
       "border-radius":'50px'
     }
+  const content = (
+    <div>
+      <Header as='h2' inverted>
+        {props.project.title}
+      </Header>
 
-    const content = (
-      <div>
-        <Header as='h2' inverted>
-          {props.project.title}
-        </Header>
+      <Button href={props.project.url} className="inverted purple">App</Button>
+      <Button href={props.project.github} className="inverted purple">GitHub</Button>
 
-        <Button href={props.project.url} className="inverted purple">App</Button>
-        <Button href={props.project.github} className="inverted purple">GitHub</Button>
-
-        <Popup
-        content= {
-
-            <div >
-            {props.project.comments.map((comment, c) =>{
-            return (
-
-              <div margin='5px' key={`comment-${c}`}><i className={commentIcons[rando(commentIcons)]+' icon '+commentColors[rando(commentColors)].toLowerCase()}></i>      {comment}</div>
-
-            )
-            })}
-            </div>
-          }
-        position='right center'
-        style={popupStyle}
-        size='large'
-        wide='very'
-        offset={[-100,20]}
-        trigger={<Button className="inverted purple">Reviews</Button>}/>
-      </div>
-    )
-
-
-
+      <Popup
+      content= {
+          <div >
+          {props.project.comments.map((comment, c) =>{
+          return (
+            <div margin='5px' key={`comment-${c}`}><i className={commentIcons[rando(commentIcons)]+' icon '+commentColors[rando(commentColors)].toLowerCase()}></i>      {comment}</div>
+          )
+          })}
+          </div>
+        }
+      position='right center'
+      style={popupStyle}
+      size='large'
+      wide='very'
+      offset={[-100,20]}
+      trigger={<Button className="inverted purple">Reviews</Button>}/>
+    </div>
+  )
 
     return (
       <Dimmer.Dimmable

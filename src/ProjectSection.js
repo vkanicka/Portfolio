@@ -6,10 +6,10 @@ import exportProjects from "./ProjectInfo"
 export default function ProjectSection (props) {
 
 return (
-  <div className='ProjectSection'>
+  <div className='ProjectSection ui grid two columns'>
       {exportProjects.map((project, p) => {
         return(
-          <div key={`project-${p}-div`}>
+          <div className='project' key={`project-${p}-div`}>
               <Project
                   project={project}
               />

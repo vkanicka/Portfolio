@@ -23,33 +23,33 @@ class Project {
 }
 const proj1 = new Project (
   'Life Simulation Game',
-  'https://i.imgur.com/CdID1LM.png',
+  'https://i.imgur.com/S18wLNA.png',
   'https://vkanicka.github.io/LifeSimulation/files02/index.html',
   'https://github.com/vkanicka/LifeSimulation',
   comments1
 )
 const proj4 = new Project (
   'my Mental Health Trainer',
-  'https://i.imgur.com/BRGpK1u.png',
+  'https://i.imgur.com/c9NF5Ie.pngg',
   'https://my-mental-health-trainer.herokuapp.com/',
   'https://github.com/vkanicka/GA_Capstone_Project_Backend',
   comments4
 )
 const proj3 = new Project (
   'Pixel Progress',
-  'https://i.imgur.com/YE4mp9t.png',
+  'https://i.imgur.com/8eR0uJm.png',
   'https://pixel-progress-frontend.herokuapp.com/',
   'https://github.com/am852410/pixel-progress-front-end',
   comments3
 )
 const proj4B = new Project (
   'Database for my Mental Health Trainer',
-  'https://i.imgur.com/d8HTMvU.png',
+  'https://i.imgur.com/g053VSW.png8',
   'https://vkanicka.github.io/LifeSimulation/files02/index.html',
   'https://github.com/vkanicka/GA_Capstone_Project_Backend',
   comments4DB
 )
-const projects = [proj1, proj4, proj3, proj4B]
+const projects = [proj1, proj3, proj4, proj4B]
 for (const p in projects) {
   projectInfo.addProject(projects[p])
 }

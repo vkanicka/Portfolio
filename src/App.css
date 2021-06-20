@@ -92,13 +92,20 @@ hr {
   margin: 3%;
 }
 
-
+.project {
+  margin: 1.5% 0;
+  /* border: 2px solid blue; */
+}
 
 #invertedCard {
   background-color: black;
   border: 1px solid black;
   outline: 1px solid black;
 
+}
 
-
+.ProjectSection {
+  margin: 0% 20%;
+  padding: 0% 20%;
+  /* border:2px solid red; */
 }
