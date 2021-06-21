@@ -4,7 +4,7 @@
 :root {
   --myBlue: #a0dde3;
   --myBackground: black;
-  --myFont:'Jura'
+  --myFont:'Jura', san-serif;
 }
 
 body {

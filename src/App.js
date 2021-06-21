@@ -38,7 +38,7 @@ export default function App() {
             <ul className="headerDetails">
                 <li><span className='detailKey'>Top Skills</span>: Python, Javascript, SQL, React</li>
 
-                <li><span className='detailKey'>Values</span>: Ingenuity<span className="textDivider"> | </span>Auto-didacticism</li>
+                <li><span className='detailKey'>Values</span>: Ingenuity<span className="textDivider"> | </span>Autodidacticism</li>
 
                 <li><span className='detailKey'>Brand</span>: Clean<span className="textDivider"> | </span>Easy<span className="textDivider"> | </span>Productive<span className="textDivider"> | </span>Meaningful<span className="textDivider"> | </span>Purposeful<span className="textDivider"> | </span>Satisifying</li>
 
