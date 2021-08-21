@@ -109,3 +109,8 @@ hr {
   padding: 0% 20%;
   /* border:2px solid red; */
 }
+
+#cw {
+  filter: grayscale(100%);
+  margin: 1% 0% 0% 0%;
+}

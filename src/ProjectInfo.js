@@ -45,7 +45,7 @@ const proj3 = new Project (
 const proj4B = new Project (
   'Database for my Mental Health Trainer',
   'https://i.imgur.com/g053VSW.png8',
-  'https://vkanicka.github.io/LifeSimulation/files02/index.html',
+  'https://i.imgur.com/g053VSW.png',
   'https://github.com/vkanicka/GA_Capstone_Project_Backend',
   comments4DB
 )

@@ -28,8 +28,8 @@ export default function Project (props) {
         {props.project.title}
       </Header>
 
-      <Button href={props.project.url} className="inverted purple">App</Button>
-      <Button href={props.project.github} className="inverted purple">GitHub</Button>
+      <Button href={props.project.url} target='none' className="inverted purple">App</Button>
+      <Button href={props.project.github} target='none' className="inverted purple">GitHub</Button>
 
       <Popup
       content= {

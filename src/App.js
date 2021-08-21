@@ -22,11 +22,13 @@ export default function App() {
               <i className="envelope outline icon"></i>
               Email
             </a>
-            <a className="item" href="https://www.linkedin.com/in/victoriakanicka/">
+
+
+            <a className="item" target='none' href="https://www.linkedin.com/in/victoriakanicka/">
               <i className="linkedin icon"></i>
               LinkedIn
             </a>
-            <a className="item" href="https://github.com/vkanicka">
+            <a className="item" target='none' href="https://github.com/vkanicka">
               <i className="github icon"></i>
               GitHub
             </a>
@@ -45,6 +47,8 @@ export default function App() {
                 <li><span className='detailKey'>Background</span>: Analytics, Marketing, Art, Data Visualization and Storytelling</li>
 
                 <li><span className='detailKey'>Artwork</span>: <a href="https://victoriakanicka.com">victoriakanicka.com</a> </li>
+
+                {/* <li><img id='cw' src='https://www.codewars.com/users/vkanicka/badges/large'/></li> */}
             </ul>
         </div>
 
