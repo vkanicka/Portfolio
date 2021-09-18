@@ -3,6 +3,10 @@ import './App.css';
 import React from "react";
 import ProjectSection from "./ProjectSection"
 import resume from "./Resume_Victoria_Kanicka.pdf"
+// import myHeadshot from "./VictoriaKanicka291946.jpg"
+import myHeadshot from "./799portfolio.jpg"
+// import myHeadshot from "./980portfolio.jpg"
+// import myHeadshot from "./979portfolio.jpg"
 
 export default function App() {
 
@@ -34,9 +38,14 @@ export default function App() {
             </a>
         </div>
 
+            <div id="me">
+              <img id="headshot" src={myHeadshot}/>
+              <div id="meText">
+                <h1>Victoria Kanicka</h1>
+                <h2>Full Stack Software Engineer</h2>
+              </div>
+            </div>
 
-            <h1>Victoria Kanicka</h1>
-            <h2>Full Stack Software Engineer</h2>
             <ul className="headerDetails">
                 <li><span className='detailKey'>Top Skills</span>: Python, Javascript, SQL, React</li>
 

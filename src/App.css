@@ -35,11 +35,17 @@ h1 {
   font-weight: 700;
   font-family: var(--myFont);
   font-size: 35px;
+  /* display: inline-block; */
+  /* vertical-align: center; */
+  /* border: 3px solid green; */
+
 }
 h2 {
   font-weight: 600;
   font-family: var(--myFont);
   font-size: 28px;
+  /* border: 3px solid lavender; */
+
 }
 .headerDetails {
   list-style: none;
@@ -113,4 +119,31 @@ hr {
 #cw {
   filter: grayscale(100%);
   margin: 1% 0% 0% 0%;
+}
+
+#headshot {
+  width: 150px;
+  /* width: 120px;
+  height: 120px; */
+  border-radius: 100%;
+  /* border-radius: 10%; */
+  /* display: inline-block; */
+  margin-right: 30px;
+  /* border: .1px solid var(--myBlue); */
+}
+
+#me {
+  display: flex;
+  /* border: 5px solid red; */
+  align-items: center;
+  margin: 3% 0%;
+}
+
+#meText {
+  /* display: flex; */
+  flex-direction: column;
+  /* border: 3px solid cyan; */
+  justify-content: space-evenly;
+
+
 }
