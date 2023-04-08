@@ -39,7 +39,7 @@ export default function App() {
         </div>
 
             <div id="me">
-              <img id="headshot" src={myHeadshot}/>
+              <img id="headshot" alt="headshot" src={myHeadshot}/>
               <div id="meText">
                 <h1>Victoria Kanicka</h1>
                 <h2>Full Stack Software Engineer</h2>
